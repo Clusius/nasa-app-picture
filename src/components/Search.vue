@@ -3,7 +3,7 @@
     <form v-on:submit.prevent="getResult(query)">
       <input type="text" placeholder="Search a picture" v-model="query" />
     </form>
-    <div class="results" v-if="results.length === 0">
+    <div class="é" v-if="results.length === 20">
     </div>
     <div v-if="results">
       <div v-for="result in results" class="resultat">
@@ -46,10 +46,13 @@ export default Vue.extend({
   flex-direction: column;
   align-items: left;
   justify-content: center;
+  width: auto;
+  text-align: center;
 }
 
 form {
     text-align: center;
+    margin-bottom: 15px;
 }
 
 
@@ -71,11 +74,16 @@ p {
   font-size: 2em;
   font-weight: bold;
   color: grey;
+  text-align: center;
+  text-shadow: #000000 1px 0 1px;
+  font-family: 'Trebuchet MS';
 }
 
 .text {
- width: 80%;
+ width: 90%;
  text-align: center;
+ font-family: 'Times New Roman', Times, serif;
+
 }
 
 .resultat {
@@ -83,5 +91,14 @@ p {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  max-width: 365px;
+  border: 1px solid grey;
+  border-radius: 10%;
+  text-align: center;
+  margin-bottom: 20px;
 }
+img {
+  width: 350px;;
+}
+
 </style>

@@ -25,5 +25,8 @@ export default Vue.extend({
 </script>
 
 <style>
-
+body {
+  margin: 0px;
+  max-width: 375px;
+}
 </style>

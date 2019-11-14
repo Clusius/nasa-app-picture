@@ -1,6 +1,8 @@
 <template>
   <div class="navbar">
-    <img src="../assets/nasa.png">
+    <div>
+      <img src="../assets/nasa.png">
+    </div>
     <h2>NASA Picture Data Base</h2>
   </div>
 </template>
@@ -20,7 +22,7 @@ export default Vue.extend({
 <style scoped lang="scss">
 
 img {
-  width: 50px;
+  width: auto;
   height: 50px;
   margin-right: 50%;
 }

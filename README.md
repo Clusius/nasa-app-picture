@@ -1,6 +1,6 @@
 # nasa-app-picture
 Bonjour Mr Calou
-Ne vous embêtez pas, rien n'a été ajouté au projet depuis la dernière fois, je n'ai rien réussi à faire.
+Ne vous embêtez pas, rien n'a été ajouté au projet depuis la dernière fois.
 
 Consign : 
 
